@@ -3,6 +3,7 @@ import './App.css';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Profile from './components/Profile';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Profile name='Jamey' lastName='Bryce'>
         <h3>This is a profile of a person</h3>
       </Profile>
+      <Counter />
     </div>
   );
 }
