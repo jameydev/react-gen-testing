@@ -6,5 +6,5 @@ export default function Profile(props) {
             </h1>
             {props.children}
         </>
-        );
+    );
 }
