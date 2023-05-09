@@ -9,7 +9,9 @@ function App() {
     <div className="App">
       {/* <Hello />
       <Message /> */}
-      <Profile name='Jamey'/>
+      <Profile name='Jamey' lastName='Bryce'>
+        <h3>This is a profile of a person</h3>
+      </Profile>
     </div>
   );
 }
