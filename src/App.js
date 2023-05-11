@@ -6,6 +6,7 @@ import Profile from './components/Profile';
 import Counter from './components/Counter';
 import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
+import ClassEvent from './components/ClassEvent';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </Profile>
       <Counter />
       <FunctionEvent />
+      <ClassEvent />
     </div>
   );
 }
