@@ -8,6 +8,7 @@ import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
 import FunctionalCounter from './components/FunctionalCounter';
+import ConditionalComponent from './components/ConditionalComponent';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <FunctionEvent />
       <ClassEvent />
       <FunctionalCounter />
+      <ConditionalComponent />
     </div>
   );
 }
