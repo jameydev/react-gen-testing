@@ -7,6 +7,7 @@ import Counter from './components/Counter';
 import Resume from './components/Resume';
 import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
+import FunctionalCounter from './components/FunctionalCounter';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Counter />
       <FunctionEvent />
       <ClassEvent />
+      <FunctionalCounter />
     </div>
   );
 }
