@@ -9,6 +9,7 @@ import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
+import List from './components/List';
 
 function App() {
   return (
@@ -24,6 +25,25 @@ function App() {
       <ClassEvent />
       <FunctionalCounter />
       <ConditionalComponent />
+      <List ordered={true} items={
+        [
+          {
+            id: 1,
+            name: 'Thing 1',
+            price: 500
+          },
+          {
+            id: 2,
+            name: 'Thing 2',
+            price: 800
+          },
+          {
+            id: 3,
+            name: "WTFLOL",
+            price: 666
+          } 
+        ]
+      } />
     </div>
   );
 }
