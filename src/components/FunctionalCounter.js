@@ -2,6 +2,8 @@ import { useState } from "react";
 
 const FunctionalCounter = () => {
     const [counter, setCounter] = useState(0); // initialize counter to 0
+
+    // const [varName, fnName] = userState('initial value');
     
     const increment = () => {
         setCounter(counter + 1);
