@@ -8,13 +8,13 @@ export default class Counter extends Component {
         };
     }
 
-    increment() {
+    increment = () => {
         this.setState({
             count: this.state.count + 1
         });
     }
 
-    decrement() {
+    decrement = () => {
         this.setState({
             count: this.state.count - 1
         });
