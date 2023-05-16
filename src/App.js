@@ -10,6 +10,7 @@ import ClassEvent from './components/ClassEvent';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
 import List from './components/List';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           } 
         ]
       } />
+      <Form />
     </div>
   );
 }
